@@ -1,36 +1,56 @@
-p {
-  font-family: Cambria;
-  font-size: 12px;
+body {
+  margin: 30px;
 }
-
-form div {
-  background-color: pink;
-  color: black;
-  font-size: 12;
+.welcome {
+  background: lightblue;
 }
 h1 {
-  color: red;
+  color: black;
+  font-family: trebuchet MS;
+  font-size: 2vmin;
+  padding-top: 30px;
+}
+img {
+  vertical-align: text-top;
 }
 h2 {
   color: black;
   font-family: trebuchet MS;
   font-size: 22px;
 }
-.introduction {
+p {
+  color: black;
   font-family: trebuchet MS;
-  font-weight: bolder;
-  font-size: 22px;
+  font-size: 18px;
+}
+#p01 {
+  color: blue;
+}
+ul {
+  color: black;
+  font-family: trebuchet MS;
+  font-size: 18px;
+}
+label {
+  color: black;
+  font-family: trebuchet MS;
+  font-size: 16px;
+}
+value {
+  color: black;
+  font-family: trebuchet MS;
+  font-size: 18px;
+}
+input {
+  font-family: trebuchet MS;
+}
+#submit {
+  background-color: light-gray;
+  font-family: trebuchet MS;
+  padding: 5px;
 }
 
-.introduction:hover {
-  font-size: 10px;
-  transition: 0.3s font-size linear;
-}
-.move:hover {
-  font-size: 10px;
-  transition: 0.3s font-size linear;
-}
-.menu:hover {
-  font-size: 12px;
-  transition: 0.3s font-size linear;
+#submit:hover {
+  background-color: pink;
+  cursor: pointer;
 }
