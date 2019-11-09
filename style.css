@@ -8,3 +8,29 @@ form div {
   color: black;
   font-size: 12;
 }
+h1 {
+  color: red;
+}
+h2 {
+  color: black;
+  font-family: trebuchet MS;
+  font-size: 22px;
+}
+.introduction {
+  font-family: trebuchet MS;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.introduction:hover {
+  font-size: 10px;
+  transition: 0.3s font-size linear;
+}
+.move:hover {
+  font-size: 10px;
+  transition: 0.3s font-size linear;
+}
+.menu:hover {
+  font-size: 12px;
+  transition: 0.3s font-size linear;
+}
