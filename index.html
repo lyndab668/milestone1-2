@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My first VCS</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li>A new thing today</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Please complete this for your student essay</p>
+
+      <form class="form-example">
+        <div class="name-input">
+          <label for="studentname">Student name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="email-input">
+          <label for="email">Student email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="essay-input">
+          <label for="textarea"
+            >Proposed essay title - make sure it's a question:</label
+          >
+          <input type="textarea" name="textarea" id="textarea" required />
+        </div>
+        <div class="submit-input required
+        minlength="100" maxlength="500">
+          <input type="submit" value="Send to us for approval" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
